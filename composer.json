@@ -1,5 +1,5 @@
 {
-    "name": "m1ome/phalcon-datatables",
+    "name": "jetski423/phalcon-datatables",
     "description": "DataTables adapter for Phalcon Framework",
     "keywords": ["Phalcon", "DataTables", "Plugin"],
     "license": "MIT",
@@ -8,12 +8,6 @@
         "DataTables\\": "src/"
       }
     },
-    "authors": [
-      {
-        "name": "Pavel Makarenko",
-        "email": "cryfall@gmail.com"
-      }
-    ],
     "minimum-stability": "dev",
     "require": {
 
