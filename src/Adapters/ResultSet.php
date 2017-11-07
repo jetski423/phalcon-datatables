@@ -34,7 +34,7 @@ class ResultSet extends AdapterInterface {
         if (count($this->global)) {
           foreach($this->global as $column=>$filters) {
             foreach($filters as $search) {
-              $check = (strpos($item->$column, $search) !== false);
+              $check = (stripos($item->$column, $search) !== false);
               if ($check) break 2;
             }
           }
@@ -45,7 +45,7 @@ class ResultSet extends AdapterInterface {
         if (count($this->column) && $check) {
           foreach($this->column as $column=>$filters) {
             foreach($filters as $search) {
-              $check = (strpos($item->$column, $search) !== false);
+              $check = (stripos($item->$column, $search) !== false);
               if (!$check) break 2;
             }
           }
